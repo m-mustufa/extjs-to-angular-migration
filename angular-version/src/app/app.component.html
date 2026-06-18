@@ -1,0 +1,44 @@
+<aside class="sidebar">
+  <div class="brand">
+    <span class="brand-mark">EH</span>
+    <span class="brand-name">EnterpriseHR</span>
+    <div class="brand-subtitle">Workforce Suite</div>
+  </div>
+
+  <a routerLink="/dashboard" routerLinkActive="active" class="nav-item">
+    <mat-icon>dashboard</mat-icon>
+    <span>Dashboard</span>
+  </a>
+  <a routerLink="/employees" routerLinkActive="active" class="nav-item">
+    <mat-icon>groups</mat-icon>
+    <span>Employees</span>
+  </a>
+  <a routerLink="/departments" routerLinkActive="active" class="nav-item">
+    <mat-icon>account_tree</mat-icon>
+    <span>Departments</span>
+  </a>
+  <a routerLink="/reports" routerLinkActive="active" class="nav-item">
+    <mat-icon>bar_chart</mat-icon>
+    <span>Reports</span>
+  </a>
+</aside>
+
+<header class="topbar">
+  <div class="page-title">{{ pageTitle$ | async }}</div>
+  <div class="topbar-actions">
+    <div class="notification">
+      <mat-icon>notifications</mat-icon>
+    </div>
+    <div class="user-profile">
+      <div class="avatar">AK</div>
+      <div>
+        <div class="user-name">Ayesha Khan</div>
+        <div class="user-role">People Operations</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="content">
+  <router-outlet></router-outlet>
+</main>

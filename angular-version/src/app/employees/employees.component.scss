@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+.toolbar mat-form-field {
+  width: 240px;
+}
+
+table {
+  width: 100%;
+}
+
+tr[mat-row] {
+  cursor: pointer;
+}
+
+.selected-row {
+  background-color: #eee;
+}

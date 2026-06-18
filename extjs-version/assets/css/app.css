@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #eef2f6;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.app-shell {
+  background: #eef2f6;
+}
+
+.app-header {
+  background: #eef2f6;
+  border-bottom: 1px solid #d9e1ea;
+}
+
+.app-title {
+  color: #24364b;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 18px 24px 6px;
+}
+
+.app-subtitle {
+  color: #66768a;
+  font-size: 13px;
+  padding: 0 24px 16px;
+}
+
+.app-workspace {
+  background: #eef2f6;
+}
+
+.status-pill {
+  border-radius: 12px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 72px;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.status-active {
+  background: #1f9d75;
+}
+
+.status-on-leave {
+  background: #d28a18;
+}
+
+.status-inactive {
+  background: #687586;
+}
+
+.x-panel-body-default {
+  color: #26384d;
+}
+
+.cdn-error {
+  background: #fff;
+  border: 1px solid #d9e1ea;
+  box-shadow: 0 10px 24px rgba(36, 54, 75, 0.08);
+  color: #26384d;
+  margin: 48px auto;
+  max-width: 560px;
+  padding: 24px;
+}
+
+.cdn-error h1 {
+  color: #24364b;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.cdn-error p {
+  color: #66768a;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
